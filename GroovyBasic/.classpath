@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
-	<classpathentry kind="lib" path="/Users/i007102/Eclipse_workspace/CPI_groovy_lib/cloud.integration.script.apis-1.36.1.jar"/>
+	<classpathentry kind="lib" path="lib/cloud.integration.script.apis-1.36.1.jar"/>
+	<classpathentry kind="lib" path="lib/macoUtil.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/Camel/camel-core-2.19.4.jar"/>
+	<classpathentry kind="lib" path="lib/cxf/lib/cxf-core-3.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/cxf/lib/cxf-rt-transports-http-3.2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
