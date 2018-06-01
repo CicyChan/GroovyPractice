@@ -1,4 +1,4 @@
-package tools.cpi.util
+package tutorial.groovy.maco
 /*
  The integration developer needs to create the method processData
  This method takes Message object of package com.sap.gateway.ip.core.customdev.util
@@ -21,8 +21,6 @@ import sap.maco.edifact.dataelement.basic.DataElement;
 import sap.maco.edifact.segment.Segment;
 import sap.maco.edifact.factory.EdifactMessageFactory;
 
-import com.sap.it.api.ITApiFactory;
-import com.sap.it.api.nrc.NumberRangeConfigurationService;
 import groovy.transform.Field;
 
 @Field int counter = 0;
@@ -88,14 +86,6 @@ def processData(){
 	
 	println(contrlMessage.printEdiFactMessage())
 	
-}
-
-def getInterchangeReference() {
-	def service = ITApiFactory.getApi(NumberRangeConfigurationService.class, null);
-	if( service != null)
-	{
-		interchangeReference = service.getNextValuefromNumberRange("UNB_0020",null);
-	}
 }
 
 def Segment getUNBSegment(EdifactMessageStructure message){

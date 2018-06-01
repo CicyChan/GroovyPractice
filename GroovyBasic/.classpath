@@ -10,5 +10,10 @@
 	<classpathentry kind="lib" path="lib/Camel/camel-core-2.19.4.jar"/>
 	<classpathentry kind="lib" path="lib/cxf/lib/cxf-core-3.2.2.jar"/>
 	<classpathentry kind="lib" path="lib/cxf/lib/cxf-rt-transports-http-3.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/bcpkix-jdk15on-159.jar"/>
+	<classpathentry kind="lib" path="lib/bcprov-jdk15on-1.59.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.7.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/i007102/git/GroovyPractice/GroovyBasic/lib/slf4j-log4j12-1.8.0-beta2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
